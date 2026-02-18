@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Agent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Agents</value>
+    </caseValues>
+    <fields>
+        <help><!-- Contact Information of the Agent --></help>
+        <label><!-- Agent Contact --></label>
+        <name>Agent_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Email address of the Agent --></help>
+        <label><!-- Agent Email --></label>
+        <name>Agent_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Name of the Agent --></help>
+        <label><!-- Agent Name --></label>
+        <name>Agent_Name__c</name>
+    </fields>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

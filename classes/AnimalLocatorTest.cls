@@ -1,0 +1,18 @@
+@isTest
+public class AnimalLocatorTest {
+	@isTest
+    static void testGetAnimalNameById(){
+        //Set mock  callout class
+        
+        Test.setMock(HttpCalloutMock.class, new AnimalLocatorMock());
+        
+        //This causes  a fake response to be sent from the class that implements HttpCalloutMock
+        
+        String response = AnimalLocator.getAnimalNameById(2);
+        
+        //Verify that the response received contains fake values
+        
+        String expectedValue = 'bear';
+        System.assertEquals(expectedValue,response);
+    }
+}

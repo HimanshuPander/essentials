@@ -1,0 +1,23 @@
+<template>
+    <lightning-card title="Component B"  variant="brand">
+        
+        <div class="slds-p-around_large">
+            <p>Message received from Component A. </p>
+            <br>
+            <lightning-formatted-rich-text
+              value={receivedMessage}
+            ></lightning-formatted-rich-text>
+            <hr>
+            <lightning-input 
+              type="text"
+              label="Enter some message"
+            ></lightning-input>
+            <br/>
+            <lightning-button 
+              variant="brand"
+              label="Send Messgae" 
+              onclick={handleClick} 
+            ></lightning-button>
+        </div>
+    </lightning-card>
+</template>

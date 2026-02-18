@@ -1,0 +1,14 @@
+<template>
+    <lightning-card variant="brand">
+      <div>
+        <!-- Card Body  -->
+            <lightning-carousel     scroll-duration="5">
+                <template lwc:if={busses}>
+                    <template for:each={busses} for:item="bus">
+                        <lightning-carousel-image key={bus.id} src={bus.src} header={bus.header} description={bus.description} href={bus.href} alternative-text="Bus Image" target="_blank"></lightning-carousel-image>
+                    </template>
+                </template>
+            </lightning-carousel>
+      </div>
+    </lightning-card>
+</template>

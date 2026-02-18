@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Cart</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Carts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Address Book --></label>
+        <name>Billing_Address__c</name>
+        <relationshipLabel><!-- Carts (Address Book) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cart Id --></label>
+        <name>Cart_Id__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cart Status --></label>
+        <name>Cart_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InActive</masterLabel>
+            <translation><!-- InActive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Coupon Applied --></label>
+        <name>Coupon_Applied__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coupon Discount --></label>
+        <name>Coupon_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coupon --></label>
+        <name>Coupon__c</name>
+        <relationshipLabel><!-- Carts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Is Active --></label>
+        <name>Is_Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Address Book --></label>
+        <name>Shipping_Address__c</name>
+        <relationshipLabel><!-- Carts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Total Amount --></label>
+        <name>Total_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Discount --></label>
+        <name>Total_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- Carts --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

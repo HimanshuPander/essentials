@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Faculty</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Faculties</value>
+    </caseValues>
+    <fields>
+        <label><!-- Branch --></label>
+        <name>Branch__c</name>
+        <picklistValues>
+            <masterLabel>Art &amp; Craft</masterLabel>
+            <translation><!-- Art &amp; Craft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Science</masterLabel>
+            <translation><!-- Computer Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dance</masterLabel>
+            <translation><!-- Dance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sports</masterLabel>
+            <translation><!-- Sports --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Validation Check --></label>
+        <name>Validation_Check__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You cannot create/ update records with the same branch. --></errorMessage>
+        <name>Check_Existing_Record</name>
+    </validationRules>
+</CustomObjectTranslation>

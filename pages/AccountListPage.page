@@ -1,0 +1,8 @@
+<apex:page controller="AccountCustomListController">
+	<apex:pageBlock >
+    	<apex:pageBlockTable value="{!aList}" var="a">
+        	<apex:column value="{!a.Name}"/>
+            <apex:column value="{!a.NumberOfEmployees}"/>
+        </apex:pageBlockTable>
+    </apex:pageBlock>    
+</apex:page>

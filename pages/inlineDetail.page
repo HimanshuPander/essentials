@@ -1,0 +1,37 @@
+<apex:page standardController="Account">
+    <apex:pageBlock title="Hello {!$User.FirstName}!">
+        You are displaying values from the {!account.name} account and separate contact 
+        that is specified by a query string parameter.
+    </apex:pageBlock>
+    <apex:pageblock title="Contacts">
+        <apex:form >
+        <apex:dataTable value="{!Account.Contacts}" var="contact" cellpadding="4" border="1">
+            <apex:column >
+                <apex:facet name="header">Name</apex:facet>
+                <apex:outputpanel >
+                    <apex:actionSupport event="onmouseover" reRender="detail">
+                        <apex:param name="cid" value="{!contact.Id}"/>
+                    </apex:actionSupport>
+                     {!contact.Name}
+                </apex:outputpanel>
+               
+                
+               
+            </apex:column>
+            <apex:column >
+                <apex:facet name="header">Phone</apex:facet>
+                {!contact.Phone}
+            </apex:column>
+        </apex:dataTable>
+        </apex:form>
+    </apex:pageblock>
+    <apex:outputPanel id="detail">
+        <apex:actionStatus >
+            <apex:facet name="stop">
+                <apex:detail subject="{!$CurrentPage.parameters.cid}" relatedList="false" title="false"/>
+            </apex:facet>
+        </apex:actionStatus>
+        
+    </apex:outputPanel>
+    
+</apex:page>

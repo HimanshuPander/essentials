@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>student</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>students</value>
+    </caseValues>
+    <fields>
+        <label><!-- Aadhaar Card Number --></label>
+        <name>Aadhaar_Card_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Average Rating --></label>
+        <name>Average_Rating__c</name>
+    </fields>
+    <fields>
+        <label><!-- Batch Time --></label>
+        <name>Batch_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Birth Date --></label>
+        <name>Birth_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Course Opted --></label>
+        <name>Course_Opted__c</name>
+        <picklistValues>
+            <masterLabel>Adv Java</masterLabel>
+            <translation><!-- Adv Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amazon AWS</masterLabel>
+            <translation><!-- Amazon AWS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Android App Development</masterLabel>
+            <translation><!-- Android App Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C++</masterLabel>
+            <translation><!-- C++ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Java</masterLabel>
+            <translation><!-- Core Java --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IOS App Development</masterLabel>
+            <translation><!-- IOS App Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEAN Stack</masterLabel>
+            <translation><!-- MEAN Stack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHP</masterLabel>
+            <translation><!-- PHP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Python</masterLabel>
+            <translation><!-- Python --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>React</masterLabel>
+            <translation><!-- React --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Admin</masterLabel>
+            <translation><!-- Salesforce Admin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesforce Developer\</masterLabel>
+            <translation><!-- Salesforce Developer\ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Currently Working at --></label>
+        <name>Currently_Working_at__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee Deposited --></label>
+        <name>Fee_Deposited__c</name>
+    </fields>
+    <fields>
+        <label><!-- Graduated --></label>
+        <name>Graduated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hobbies --></label>
+        <name>Hobbies__c</name>
+        <picklistValues>
+            <masterLabel>Crafting</masterLabel>
+            <translation><!-- Crafting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dancing</masterLabel>
+            <translation><!-- Dancing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Painting</masterLabel>
+            <translation><!-- Painting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playing</masterLabel>
+            <translation><!-- Playing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Playing Guitar</masterLabel>
+            <translation><!-- Playing Guitar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reading</masterLabel>
+            <translation><!-- Reading --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Singing</masterLabel>
+            <translation><!-- Singing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traveling</masterLabel>
+            <translation><!-- Traveling --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Initial Fees --></label>
+        <name>Initial_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Referred by --></label>
+        <name>Referred_by__c</name>
+        <relationshipLabel><!-- students --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Registration Date --></label>
+        <name>Registration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resume --></label>
+        <name>Resume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Scholarship --></label>
+        <name>Scholarship__c</name>
+    </fields>
+    <fields>
+        <label><!-- Social Profile --></label>
+        <name>Social_Profile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stream Opted --></label>
+        <name>Stream_Opted__c</name>
+        <picklistValues>
+            <masterLabel>Cloud Computing</masterLabel>
+            <translation><!-- Cloud Computing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Core Programming Languages</masterLabel>
+            <translation><!-- Core Programming Languages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Science</masterLabel>
+            <translation><!-- Data Science --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile App Development</masterLabel>
+            <translation><!-- Mobile App Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Development</masterLabel>
+            <translation><!-- Web Development --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Enter your Email here --></help>
+        <label><!-- Student Email --></label>
+        <name>Student_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter your name here --></help>
+        <label><!-- Student Name --></label>
+        <name>Student_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student&apos;s Contact --></label>
+        <name>Student_s_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student&apos;s Location --></label>
+        <name>Student_s_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Student&apos;s State --></label>
+        <name>Student_s_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sum of All Ratings --></label>
+        <name>Sum_of_All_Ratings__c</name>
+    </fields>
+    <fields>
+        <label><!-- Technology / Domain Working in --></label>
+        <name>Technology_Domain_Working_in__c</name>
+        <picklistValues>
+            <masterLabel>Data Science and Analytics</masterLabel>
+            <translation><!-- Data Science and Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MEAN Stack</masterLabel>
+            <translation><!-- MEAN Stack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile App Development</masterLabel>
+            <translation><!-- Mobile App Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PHP</masterLabel>
+            <translation><!-- PHP --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Fees --></label>
+        <name>Total_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Number of Ratings --></label>
+        <name>Total_Number_of_Ratings__c</name>
+    </fields>
+    <fields>
+        <label><!-- 12th Percentage --></label>
+        <name>X12th_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Years of Experience --></label>
+        <name>Years_of_Experience__c</name>
+    </fields>
+    <layouts>
+        <layout>Experience Student Page Layout</layout>
+        <sections>
+            <label><!-- Contact Info --></label>
+            <section>Contact Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fee  Related  Info --></label>
+            <section>Fee  Related  Info</section>
+        </sections>
+        <sections>
+            <label><!-- Job Currently in --></label>
+            <section>Job Currently in</section>
+        </sections>
+        <sections>
+            <label><!-- Rating Info --></label>
+            <section>Rating Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Experience Student Page Layout (Nothing required)</layout>
+        <sections>
+            <label><!-- Contact Info --></label>
+            <section>Contact Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fee  Related  Info --></label>
+            <section>Fee  Related  Info</section>
+        </sections>
+        <sections>
+            <label><!-- Job Currently in --></label>
+            <section>Job Currently in</section>
+        </sections>
+        <sections>
+            <label><!-- Rating Info --></label>
+            <section>Rating Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Fresher Student Page Layout</layout>
+        <sections>
+            <label><!-- Contact Info --></label>
+            <section>Contact Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Extra  Information --></label>
+            <section>Extra  Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fee  Related  Info --></label>
+            <section>Fee  Related  Info</section>
+        </sections>
+        <sections>
+            <label><!-- Rating Info --></label>
+            <section>Rating Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Graduate Student Page Layout</layout>
+        <sections>
+            <label><!-- Contact Info --></label>
+            <section>Contact Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Extra  Information --></label>
+            <section>Extra  Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fee  Related  Info --></label>
+            <section>Fee  Related  Info</section>
+        </sections>
+        <sections>
+            <label><!-- Rating Info --></label>
+            <section>Rating Info</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>student Layout</layout>
+        <sections>
+            <label><!-- Contact Info --></label>
+            <section>Contact Info</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Extra  Information --></label>
+            <section>Extra  Information</section>
+        </sections>
+        <sections>
+            <label><!-- Fee  Related  Info --></label>
+            <section>Fee  Related  Info</section>
+        </sections>
+        <sections>
+            <label><!-- Rating Info --></label>
+            <section>Rating Info</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Quick Rating --></label>
+        <name>NewRatingAction</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- Experience Student --></label>
+        <name>Experience_Student</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Fresher Student --></label>
+        <name>Fresher_Student</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Graduate Student --></label>
+        <name>Graduate_Student</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- This can&apos;t be done --></errorMessage>
+        <name>Lit</name>
+    </validationRules>
+    <workflowTasks>
+        <name>Gather_Requirements</name>
+        <subject><!-- Gather Requirements --></subject>
+    </workflowTasks>
+</CustomObjectTranslation>

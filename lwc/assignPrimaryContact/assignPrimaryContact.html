@@ -1,0 +1,26 @@
+<template>
+    <lightning-card title="Assign Primary Contact" variant="brand">
+        <div class="slds-m-around_large">
+            <lightning-button 
+              variant="brand"
+              label={showContacts} 
+              title="Show Contacts" 
+              onclick={handleClick} 
+            ></lightning-button>
+            
+            <br/>
+            <br/>
+
+
+            <template lwc:if={isVisible}>
+                <lightning-datatable
+                  key-field="Id"
+                  data={data}
+                  columns={columns}
+                  onrowaction={handleRowAction}
+                  hide-checkbox-column
+                ></lightning-datatable>
+            </template>
+        </div>
+    </lightning-card>
+</template>

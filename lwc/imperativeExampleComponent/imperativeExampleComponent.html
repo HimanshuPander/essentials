@@ -1,0 +1,19 @@
+<template>
+    <div class="slds-p-around_medium lgc-bg">
+        <lightning-input type="number" onchange={handleChange} label="Enter Number Of Records"></lightning-input>
+    </div>
+    <br>
+
+    <div class="slds-grid slds-wrap slds-gutters">
+        <template for:each={accountList} for:item="account">
+            <div key={account.Id} class="slds-col slds-size_4-of-12">
+                <lightning-card>
+                    <p class="slds-p-horizontal_small">{account.Name}</p>
+                    <br>
+                    <p class="slds-p-horizontal_small">{account.NumberOfEmployees}</p>
+                </lightning-card>
+                <br>
+            </div>
+        </template>
+    </div>
+</template>

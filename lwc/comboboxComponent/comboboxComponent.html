@@ -1,0 +1,21 @@
+<template>
+    <lightning-card title="ComboBox Demo" variant="brand">
+        <div class="slds-m-around_large">
+            <lightning-combobox
+              name="accountSelector"
+              label="Account"
+              value={value}
+              placeholder="Select Account"
+              options={options}
+              onchange={handleChange} 
+            ></lightning-combobox>
+        
+
+            <br/>
+
+            <template lwc:if={value}>
+                <p> Selected value is : {value} </p>
+            </template>
+        </div>
+    </lightning-card>
+</template>

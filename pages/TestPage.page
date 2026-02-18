@@ -1,0 +1,13 @@
+<apex:page standardController="student__c" sidebar="false">
+    <apex:pageBlock title="Student Detail">
+    	<apex:pageBlockSection title="Student Information">
+        	<apex:outputField value="{!student__c.Name}"/>
+            <apex:outputField value="{!student__c.Student_Name__c}"/>
+            <apex:outputField value="{!student__c.Student_s_Contact__c}"/>
+            <apex:outputField value="{!student__c.Birth_Date__c}"/>
+        </apex:pageBlockSection>
+        <apex:pageBlockSection title="Extra Information">
+        	<apex:outputField value="{!student__c.Student_Email__c}"/>
+        </apex:pageBlockSection>
+    </apex:pageBlock>
+</apex:page>

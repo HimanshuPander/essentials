@@ -1,0 +1,20 @@
+<apex:page controller="AccountController">
+    <apex:form >
+    	<apex:pageBlock >
+        	<apex:pageBlockSection >
+            	<apex:inputText value="{!searchText}"/>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockSection >
+            	<apex:pageBlockTable value="{!accList}" var="a" id="aTable">
+                	<apex:column value="{!a.Name}"/>
+                    <apex:column value="{!a.NumberOfEmployees}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+            
+            <apex:pageBlockButtons >
+            	<apex:commandButton action="{!search}" value="Search" reRender="aTable"/>
+            </apex:pageBlockButtons>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

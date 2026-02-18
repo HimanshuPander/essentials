@@ -1,0 +1,9 @@
+<apex:page controller="FirstController">
+    <apex:form >
+    	<apex:pageBlock title="Account, Contact, Opportunity Create Page">
+        	<apex:pageBlockSection >
+            	<apex:inputText value="{!accName}"/>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

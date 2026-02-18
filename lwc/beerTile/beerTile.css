@@ -1,0 +1,22 @@
+.lwc_card{
+    background: rgb(172, 148, 148);
+    margin: 30px;
+}
+.button{
+   font-size : 14px;
+   padding: 10px 15px;
+   background: rgb(70, 61, 61);
+   border-top-left-radius: 50px;
+   border-bottom-right-radius:50px;
+   color: #fff;
+   transition: .2s ease-in-out 0s;
+   width : 200px;
+   height: 30px;
+}
+.button:hover{
+      cursor: pointer;
+      transform: scale(1.25);
+      background: #fff;
+      border: 2px solid rgb(70, 61, 61);
+      color: rgb(70, 61, 61);
+}

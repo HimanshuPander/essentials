@@ -1,0 +1,13 @@
+<template>
+    <lightning-card  title="Hello">
+        <lightning-record-form
+            object-api-name= "Account"
+            layout-type="Compact"
+            mode="view"
+            onsubmit={handleSubmit}
+            onsuccess={handleSuccess}
+            record-id={recordId}
+            fields={FIELDS}
+        ></lightning-record-form>
+    </lightning-card>
+</template>

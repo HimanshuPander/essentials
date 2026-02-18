@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bus</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Busses</value>
+    </caseValues>
+    <fields>
+        <help><!-- Vehicle Registration Number --></help>
+        <label><!-- Bus Plate Number --></label>
+        <name>Bus_Plate_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bus Type --></label>
+        <name>Bus_Type__c</name>
+        <picklistValues>
+            <masterLabel>A.C.</masterLabel>
+            <translation><!-- A.C. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non A.C.</masterLabel>
+            <translation><!-- Non A.C. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Total Number of Persons a bus can accomodate. --></help>
+        <label><!-- Capacity --></label>
+        <name>Capacity__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

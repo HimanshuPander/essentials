@@ -1,0 +1,11 @@
+<apex:page Controller="MyController">
+    <apex:form >
+    	<apex:pageBlock title="Contacts Information">
+        	<apex:pageBlockSection >
+            	<apex:pageBlockTable value="{!opportunities}" var="opp">
+                	<apex:column value="{!opp.Name}"/>
+                </apex:pageBlockTable>
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

@@ -1,0 +1,16 @@
+<template>
+    <lightning-card icon-name="standard:account" variant="base">
+      <lightning-input 
+        type="text"
+        label="Enter some text"
+        value={userInput} onchange={handleChange}></lightning-input>
+
+        <br/>
+
+        <template if:true={accounts}>
+            <template for:each={accounts} for:item="account">
+                <p key={account.Id}>{account.Name}</p>
+            </template>
+        </template>
+    </lightning-card>
+</template>

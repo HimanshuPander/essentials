@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Travel Schedule</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Travel Schedules</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent ID --></label>
+        <name>Agent_ID__c</name>
+        <relationshipLabel><!-- Travel Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bus ID --></label>
+        <name>Bus_ID__c</name>
+        <relationshipLabel><!-- Travel Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Time of Departure --></help>
+        <label><!-- Departure Time --></label>
+        <name>Departure_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Point where is bus route --></help>
+        <label><!-- Destination --></label>
+        <name>Destination__c</name>
+        <picklistValues>
+            <masterLabel>Hanumangarh</masterLabel>
+            <translation><!-- Hanumangarh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaipur</masterLabel>
+            <translation><!-- Jaipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karanpur</masterLabel>
+            <translation><!-- Karanpur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raisinghnager</masterLabel>
+            <translation><!-- Raisinghnager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rawatsar</masterLabel>
+            <translation><!-- Rawatsar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sardarshahar</masterLabel>
+            <translation><!-- Sardarshahar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sikar</masterLabel>
+            <translation><!-- Sikar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Ganganagar</masterLabel>
+            <translation><!-- Sri Ganganagar --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Driver ID --></label>
+        <name>Driver_ID__c</name>
+        <relationshipLabel><!-- Travel Schedules --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Time the bus will arrive in its destination --></help>
+        <label><!-- Estimated Arrival Time --></label>
+        <name>Estimated_Arrival_Time__c</name>
+    </fields>
+    <fields>
+        <help><!-- Fare Amount paid by Commuter --></help>
+        <label><!-- Fare Amount --></label>
+        <name>Fare_Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- Important notes on the Travel --></help>
+        <label><!-- Remarks --></label>
+        <name>Remarks__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date of Travel --></help>
+        <label><!-- Schedule Date --></label>
+        <name>Schedule_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Origin of the Bus --></help>
+        <label><!-- Starting Point --></label>
+        <name>Starting_Point__c</name>
+        <picklistValues>
+            <masterLabel>Hanumangarh</masterLabel>
+            <translation><!-- Hanumangarh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jaipur</masterLabel>
+            <translation><!-- Jaipur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karanpur</masterLabel>
+            <translation><!-- Karanpur --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Raisinghnager</masterLabel>
+            <translation><!-- Raisinghnager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rawatsar</masterLabel>
+            <translation><!-- Rawatsar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sardarshahar</masterLabel>
+            <translation><!-- Sardarshahar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sikar</masterLabel>
+            <translation><!-- Sikar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sri Ganganagar</masterLabel>
+            <translation><!-- Sri Ganganagar --></translation>
+        </picklistValues>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

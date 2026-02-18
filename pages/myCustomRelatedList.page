@@ -1,0 +1,3 @@
+<apex:page standardController="Faculty__c">
+    <apex:relatedList list="Courses__r"/>
+</apex:page>

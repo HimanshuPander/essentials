@@ -1,0 +1,12 @@
+<template>
+    <lightning-button variant="brand" label="Brand" title="Primary action" onclick={handleClick} class="slds-m-left_x-small"></lightning-button>
+
+    <template lwc:if={showCard}>
+        <lightning-card  title="My Component">
+            <lightning-button label="New" slot="actions"></lightning-button>
+            <p class="slds-p-horizontal_small">This is the component Body!</p>
+            <p slot="footer">Card Footer</p>
+        </lightning-card>
+    </template>
+
+</template>

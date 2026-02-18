@@ -1,0 +1,22 @@
+<template>
+    <lightning-card title="Lightning Record View Form" variant="base">
+        <lightning-record-view-form
+          density="Compact"
+          object-api-name={objectApiName}
+          record-id={recordId}
+        >
+            <lightning-output-field 
+              field-name={nameField}
+            ></lightning-output-field>
+
+            <lightning-output-field 
+              field-name={industryField}
+            ></lightning-output-field>
+
+            <lightning-output-field 
+              field-name={annualRevenueField}
+            ></lightning-output-field>
+
+        </lightning-record-view-form>
+    </lightning-card>
+</template>

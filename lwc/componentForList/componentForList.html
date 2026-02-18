@@ -1,0 +1,11 @@
+<template>
+    <div class="slds-grid slds-gutters slds-wrap">
+        <template for:each={students} for:item="student">
+            <div key={student} class="slds-col slds-size_4-of-12">
+                <lightning-card  title={student}>
+
+                </lightning-card>
+            </div>
+        </template>
+    </div>
+</template>

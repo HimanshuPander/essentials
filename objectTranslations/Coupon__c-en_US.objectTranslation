@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Coupon</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Coupon</value>
+    </caseValues>
+    <fields>
+        <label><!-- Coupon Used --></label>
+        <name>Coupon_Used__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expired In(Time) --></label>
+        <name>Expired_In_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expired? --></label>
+        <name>Expired__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Remaining Quantity --></label>
+        <name>Remaining_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Quantity --></label>
+        <name>Total_Quantity__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

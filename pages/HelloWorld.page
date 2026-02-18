@@ -1,0 +1,6 @@
+<apex:page standardController="Account" sideBar="true">
+    <apex:pageblock title="Hi {!$User.FirstName} !">
+        <p>You are viewing the {!Account.Name} account.</p>
+    </apex:pageblock>
+    <apex:detail subject="{!Account}" relatedList="true" title="false"/>
+</apex:page>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Bus by Agent</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Busses by Agents</value>
+    </caseValues>
+    <fields>
+        <label><!-- Agent ID --></label>
+        <name>Agent_ID__c</name>
+        <relationshipLabel><!-- Busses by Agents --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bus ID --></label>
+        <name>Bus_ID__c</name>
+        <relationshipLabel><!-- Busses by Agents --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

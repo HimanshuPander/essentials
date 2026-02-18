@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<NavigationMenu xmlns="http://soap.sforce.com/2006/04/metadata">
+    <container>Himanshu Pander</container>
+    <containerType>Network</containerType>
+    <label>Default Navigation</label>
+    <navigationMenuItem>
+        <label>About Me</label>
+        <position>1</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/about-me</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>New menu item</label>
+        <position>2</position>
+        <publiclyAvailable>false</publiclyAvailable>
+        <target>Login</target>
+        <type>Event</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Education</label>
+        <position>3</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/education</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Skills</label>
+        <position>4</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/skills</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+    <navigationMenuItem>
+        <label>Trailhead Certifications</label>
+        <position>5</position>
+        <publiclyAvailable>true</publiclyAvailable>
+        <target>/trailhead-certifications</target>
+        <type>InternalLink</type>
+    </navigationMenuItem>
+</NavigationMenu>

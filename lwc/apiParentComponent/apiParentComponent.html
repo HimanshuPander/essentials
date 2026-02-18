@@ -1,0 +1,29 @@
+<template>
+    <lightning-input 
+      type="text"
+      value=""
+      label="Enter Text"
+    ></lightning-input>
+    <br>
+    <lightning-button 
+      variant="brand"
+      label="Submit" 
+      onclick={handleClick} 
+    ></lightning-button>
+
+    <div>
+      <p> Values received from Child Component </p>
+      <br>
+      <p>{nameChild}</p>
+    </div>
+
+    <div onsend={handleReceive}>
+      <c-api-child-component child-property1="Hello World"></c-api-child-component>
+    </div>
+    <br>
+    <lightning-button 
+      variant="brand"
+      label="Reset Value" 
+      onclick={handleReset} 
+    ></lightning-button>
+</template>

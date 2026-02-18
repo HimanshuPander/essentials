@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningExperienceTheme xmlns="http://soap.sforce.com/2006/04/metadata">
+    <defaultBrandingSet>LEXTHEMINGSFDCInsights</defaultBrandingSet>
+    <description>SFDC Insights is our internal app designed to streamline access to our blog content. Stay updated with the latest Salesforce Platform Basics, insightful articles, and informative posts. Dive deep into Salesforce setup, navigation, and best practices right from your Salesforce environment. Enhance your Salesforce knowledge and stay ahead with SFDC Insights.</description>
+    <isDarkModeEnabled>false</isDarkModeEnabled>
+    <masterLabel>SFDC Insights</masterLabel>
+    <shouldOverrideLoadingImage>false</shouldOverrideLoadingImage>
+</LightningExperienceTheme>

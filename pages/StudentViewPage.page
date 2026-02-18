@@ -1,0 +1,22 @@
+<apex:page standardController="student__c">
+    
+    <apex:pageBlock title="Student Information">
+        
+    	<apex:pageBlockSection title="Small Fields" columns="4" collapsible="false">
+            
+            <apex:outputField value="{!student__c.Name}"/>
+            <apex:outputField value="{!student__c.Student_Name__c}"/>
+            <apex:outputField value="{!student__c.Student_Email__c}"/>
+            <apex:outputField value="{!student__c.Course_Opted__c}"/>
+            
+        </apex:pageBlockSection>
+        
+        <apex:pageBlockSection columns="1" title="Big Fields">
+            
+            <apex:outputField value="{!student__c.Description__c}"/>
+            
+        </apex:pageBlockSection>
+        
+    </apex:pageBlock>
+    
+</apex:page>

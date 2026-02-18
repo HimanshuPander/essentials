@@ -1,0 +1,17 @@
+<template>
+    <p>Child Property 1: {childProperty1}</p>
+    <p>Child Property 2: {childProperty2}</p>
+
+    <lightning-card>
+        <lightning-input 
+          type="text"
+          label="Name"
+        ></lightning-input>
+
+        <lightning-button 
+          variant="brand"
+          label="Pass to Parent" 
+          onclick={handleClick} 
+        ></lightning-button>
+    </lightning-card>
+</template>
